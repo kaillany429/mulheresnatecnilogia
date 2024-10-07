@@ -1,0 +1,126 @@
+@font-face {
+    font-family:ana ;
+    src: url(./happy_selfie/Happy\ Selfie.otf);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #8ad4ffb9;
+}
+
+header{
+    background-color: #5bc4e4d2;
+    color: #f0f8ff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0px;
+    font-family: ana;
+    font-size:40px;
+    background-image: url(https://img1.picmix.com/output/stamp/normal/7/2/7/8/2558727_57429.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 4px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #004fb6;
+    text-decoration: none;
+}
+
+main{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,th,td{
+    border: 3px solid #2a9ac7;
+    padding: 15px;
+    text-align: left;
+}
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+ 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #41d2f7;
+    border-radius: 5px;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4c9fff;
+    color: antiquewhite;
+    border: none;
+    cursor: auto;
+    color: #0053b3;
+    font-size: 15px;
+}
+
+
+footer{
+    background-color: #4fdada;
+    color: azure;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+
+}
+
+nav ul li a:hover{
+    color: blue;
+    font-size:20px;
+}
+
+h2{
+    font-family: ana;
+}
+
+
+
+
+
